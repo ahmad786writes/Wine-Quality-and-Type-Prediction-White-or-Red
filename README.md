@@ -36,7 +36,7 @@ The architecture for the model is based on a fully connected **Feedforward Neura
 - For **type** prediction: **Binary Crossentropy**.
 
 ### Optimizer
-- **Adam** optimizer with learning rate adjustments.
+- **RMSprop** optimizer with learning rate adjustments.
 
 ## Training
 The model is trained on both the **red wine** and **white wine** datasets, with labels for both **quality** and **type**. The training process uses backpropagation to minimize the combined loss (sum of MSE for quality and binary crossentropy for type).
@@ -54,15 +54,13 @@ The model provides: - A **wine quality prediction** within a reasonable MSE. - A
 ## How to Run
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/wine-quality-prediction.git
+    git clone https://github.com//ahmad786writes/Wine-Quality-and-Type-Prediction-White-or-Red-
     ```
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+2. Install the Tensorflow Version above 2.x
+    
 3. Open the Jupyter Notebook:
     ```bash
-    jupyter notebook wine_quality_prediction.ipynb
+    jupyter notebook Wine Quality and its Type Prediction.ipynb
     ```
 4. Run the cells in the notebook to train and evaluate the model.
 
