@@ -23,7 +23,9 @@ The dataset used for this project is the [Wine Quality Dataset](https://archive.
 Given the physicochemical properties of wine, we aim to: 1. Predict the **quality** of the wine as a **regression** problem. 2. Classify the wine as either **red** or **white** as a **binary classification** problem.
 
 ## Architecture
-The architecture for the model is based on a fully connected **Feedforward Neural Network (FNN)**. The network takes in the 11 features of the wine and outputs: 1. A **regression** output for predicting the quality score. 2. A **classification** output to predict whether the wine is red or white. 
+The architecture for the model is based on a fully connected **Feedforward Neural Network (FNN)**. The network takes in the 11 features of the wine and outputs: 1. A **regression** output for predicting the quality score. 2. A **classification** output to predict whether the wine is red or white.
+
+![Model Architecture](final-model.png)
 
 ### Model Structure
 - Input Layer: 11 features (physicochemical properties)
